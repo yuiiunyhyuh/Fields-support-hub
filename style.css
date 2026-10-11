@@ -126,3 +126,10 @@ details p { color: var(--muted); max-width: 720px; font-size: .9rem; margin: 12p
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; }
 }
+.promptpay-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background: white;
+}
