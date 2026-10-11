@@ -1,43 +1,84 @@
-# Field's Support Hub
+💚 Field's Support Hub
 
-A responsive, dark-charcoal and neon-green static creator support page designed for GitHub Pages.
+Small support. Big ideas.
 
-## Files
+Welcome to Field's Support Hub! This is the home for supporting my projects, experiments, and future development.
 
-- `index.html` — page structure and placeholder PromptPay QR panel
-- `style.css` — visual design and responsive layout
-- `script.js` — tiny progressive enhancement for the copyright year
+I build things for curious people, including educational tools like the Logic Calculator. Every project is designed to be accessible, and contributions are completely optional.
 
-## Important payment note
+✨ Features
 
-This starter contains **no real payment credentials and no real QR code**. The QR-like illustration is a clearly labelled placeholder. The payment button is disabled.
+- 🌑 Dark theme with neon-green accents
+- 📱 Responsive design for mobile and desktop
+- 🧮 Project showcase featuring Logic Calculator
+- ☕ Optional support section
+- 🇹🇭 PromptPay QR support for Thai contributors (when enabled)
+- ❓ FAQ section to answer common questions
+- ⚡ Fast and lightweight — built with HTML, CSS, and JavaScript
 
-Before accepting public contributions:
-1. Ask KBank whether your account and age are eligible for this use, and whether guardian consent is required.
-2. Obtain a receiving QR from K PLUS or another official KBank channel.
-3. Replace the placeholder panel with the bank-generated QR image only after eligibility is confirmed.
-4. Keep your national ID, home address, bank login, PIN, password, and OTP out of this website and repository.
-5. Never represent a transfer as completed based only on a screenshot; verify it in your bank app.
+🛠️ Built With
 
-## Deploy to GitHub Pages
+- HTML5
+- CSS3
+- Vanilla JavaScript
+- GitHub Pages
 
-1. Create a new GitHub repository, for example `fields-support-hub`.
-2. Upload `index.html`, `style.css`, `script.js`, and `README.md` to the repository root.
-3. In the repository, open **Settings → Pages**.
-4. Under **Build and deployment**, select **Deploy from a branch**.
-5. Choose the `main` branch and `/ (root)`, then save.
-6. Wait for GitHub Pages to publish the site. The URL will typically look like `https://YOUR-USERNAME.github.io/fields-support-hub/`.
+No frameworks, build tools, or complicated dependencies required.
 
-If you want a custom domain later, configure it in GitHub Pages settings.
+🚀 Deployment
 
-## Add a link from Logic Calculator
+This website is hosted using GitHub Pages.
 
-Once deployed, link the calculator's support button to your published support page, for example:
+To deploy your own copy:
 
-```html
-<a href="https://YOUR-USERNAME.github.io/fields-support-hub/" target="_blank" rel="noopener noreferrer">
-  ☕ Support this project
-</a>
-```
+1. Fork or clone this repository.
+2. Open your repository's Settings → Pages.
+3. Under Build and deployment, select Deploy from a branch.
+4. Choose the "main" branch and the "/ (root)" folder.
+5. Save and wait for GitHub Pages to publish the site.
 
-Replace `YOUR-USERNAME` with your GitHub username.
+Your website will typically be available at:
+
+"https://YOUR-USERNAME.github.io/REPOSITORY-NAME/"
+
+Replace the placeholders with your GitHub username and repository name.
+
+💚 Supporting the Projects
+
+Enjoying one of my projects? You may be able to support future development through a voluntary contribution.
+
+- Contributions are optional.
+- Projects remain free to use.
+- Contributions help support future improvements and development costs.
+
+For Thai supporters, a bank-generated PromptPay receiving QR may be provided once the payment arrangement is confirmed and enabled.
+
+Payment status: The QR panel is a placeholder until a valid receiving QR is added. Do not treat the placeholder as a working payment method.
+
+🔐 Privacy & Safety
+
+- Never publish bank login credentials, PINs, passwords, OTPs, or private identity documents.
+- Use only a receiving QR generated through your bank's official app.
+- Check the recipient name before confirming a transfer.
+- Confirm that your bank account is eligible to receive public contributions before enabling payments.
+
+📂 Project Structure
+
+fields-support-hub/
+├── index.html
+├── style.css
+├── script.js
+├── promptpay-qr.png
+└── README.md
+
+The QR filename above is an example. If your image has a different name, update the filename in "index.html" accordingly.
+
+📜 License
+
+Unless otherwise stated, the code is provided for personal and educational use. Please contact the author before redistributing the project as your own.
+
+---
+
+Made with curiosity, code, and probably too much caffeine. ☕💚
+
+— Field
